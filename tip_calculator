@@ -1,0 +1,19 @@
+print("Welcome to the add tip calculator")
+
+bill = float(input("What is the bill total amount?\n"))
+
+tip = float(input(f"What is the percentage amount of tip ypu want to add, 10, 14 , 20%\n"))
+
+tip = tip / 100
+
+tip = tip * bill
+
+tip = tip + bill
+
+customers = int(input("HOw many people are paying th bill\n"))
+
+total_bill = tip / customers
+
+ro = round(total_bill)
+
+total= print(f"The amount each person has to pau is {ro}")
